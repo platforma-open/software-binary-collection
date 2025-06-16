@@ -1,6 +1,6 @@
 # Track all files in dld directories with Git LFS
-software/*/linux-x64/** binary
-software/*/linux-aarch64/** binary
-software/*/macosx-x64/** binary
-software/*/macosx-aarch64/** binary
-software/*/windows-x64/** binary
+software/*/linux-x64/** filter=lfs diff=lfs merge=lfs -text
+software/*/linux-aarch64/** filter=lfs diff=lfs merge=lfs -text
+software/*/macosx-x64/** filter=lfs diff=lfs merge=lfs -text
+software/*/macosx-aarch64/** filter=lfs diff=lfs merge=lfs -text
+software/*/windows-x64/** filter=lfs diff=lfs merge=lfs -text
