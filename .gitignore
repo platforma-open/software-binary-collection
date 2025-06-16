@@ -3,3 +3,4 @@ pkg-*.zip
 dist/
 .turbo
 node_modules/
+package.sw.json
