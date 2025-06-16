@@ -1,3 +1,6 @@
 # Track all files in dld directories with Git LFS
-software/*/dld/** binary
-software/*/dld/**/*.exe binary
+software/*/linux-x64/** binary
+software/*/linux-aarch64/** binary
+software/*/macosx-x64/** binary
+software/*/macosx-aarch64/** binary
+software/*/windows-x64/** binary

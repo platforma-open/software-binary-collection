@@ -1,2 +1,5 @@
 pkg-*.tgz
-/node_modules/
+pkg-*.zip
+dist/
+.turbo
+node_modules/
