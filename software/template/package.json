@@ -1,0 +1,38 @@
+{
+  "name": "@platforma-open/milaboratories.software-binary-collection.software-template",
+  "version": "1.0.0",
+  "description": "Template binary package for Platforma Backend",
+  "scripts": {
+    "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
+    "build": "pl-pkg build --all-platforms",
+    "publish": "pl-pkg publish --all-platforms",
+    "postbuild": "[ -z \"${CI}\" ] || pnpm run publish"
+  },
+  "files": [
+    "dist/"
+  ],
+  "block-software": {
+    "entrypoints": {
+      "main": {
+        "binary": {
+          "artifact": {
+            "registry": "platforma-open",
+            "type": "binary",
+            "roots": {
+              "linux-x64": "./linux-x64",
+              "linux-aarch64": "./linux-aarch64",
+              "macosx-x64": "./macosx-x64",
+              "macosx-aarch64": "./macosx-aarch64",
+              "windows-x64": "./windows-x64"
+            }
+          },
+          "cmd": ["{pkg}/bin/new-binary"]
+        }
+      }
+    }
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@platforma-sdk/package-builder": "catalog:"
+  }
+}

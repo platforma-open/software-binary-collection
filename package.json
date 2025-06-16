@@ -1,0 +1,20 @@
+{
+    "name": "software-binary-collection",
+    "scripts": {
+      "cleanup": "pnpm -r cleanup",
+      "build": "turbo run build",
+      "test": "turbo run test",
+      "changeset": "changeset",
+      "version-packages": "changeset version"
+    },
+    "license": "UNLICENSED",
+    "packageManager": "pnpm@10.12.1",
+    "engines": {
+      "node": ">=20"
+    },
+    "devDependencies": {
+      "turbo": "catalog:",
+      "@changesets/cli": "catalog:"
+    },
+    "//pnpm": {}
+  }

@@ -9,10 +9,10 @@
     "block-software": {
         "entrypoints": {
             "jq": {
-                "reference": "@platforma-open/milaboratories.software-binary-collection.software-jq/dist/tengo/asset/main.as.json"
+                "reference": "@platforma-open/milaboratories.software-binary-collection.software-jq/dist/tengo/software/main.sw.json"
             },
-            "zip": {
-                "reference": "@platforma-open/milaboratories.software-binary-collection.software-7zip/dist/tengo/asset/main.as.json"
+            "7zip": {
+                "reference": "@platforma-open/milaboratories.software-binary-collection.software-7zip/dist/tengo/software/main.sw.json"
             }
         }
     },

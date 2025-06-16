@@ -1,0 +1,8 @@
+packages:
+  - 'software/*'
+  - 'catalogue'
+
+catalog:
+  'turbo': ^2.5.4
+  '@changesets/cli': ^2.29.4
+  '@platforma-sdk/package-builder': ^2.16.0
