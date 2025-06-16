@@ -1,0 +1,30 @@
+{
+    "name": "@platforma-open/milaboratories.software-binary-collection",
+    "version": "1.0.0",
+    "description": "Software binary collection catalogue for Platforma Backend",
+    "scripts": {
+        "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
+        "build": "pl-pkg build"
+    },
+    "block-software": {
+        "entrypoints": {
+            "jq": {
+                "reference": "@platforma-open/milaboratories.software-binary-collection.software-jq/dist/tengo/asset/main.as.json"
+            },
+            "zip": {
+                "reference": "@platforma-open/milaboratories.software-binary-collection.software-7zip/dist/tengo/asset/main.as.json"
+            }
+        }
+    },
+    "files": [
+        "dist/"
+    ],
+    "license": "UNLICENSED",
+    "dependencies": {
+        "@platforma-open/milaboratories.software-binary-collection.software-jq": "workspace:*",
+        "@platforma-open/milaboratories.software-binary-collection.software-7zip": "workspace:*"
+    },
+    "devDependencies": {
+        "@platforma-sdk/package-builder": "catalog:"
+    }
+}

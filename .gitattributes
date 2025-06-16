@@ -1,0 +1,3 @@
+# Track all files in dld directories with Git LFS
+software/*/dld/** binary
+software/*/dld/**/*.exe binary

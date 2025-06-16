@@ -1,0 +1,38 @@
+{
+  "name": "@platforma-open/milaboratories.software-binary-collection.software-jq",
+  "version": "1.0.0",
+  "description": "jq JSON processor package for Platforma Backend",
+  "scripts": {
+    "build": "true",
+    "pkg:build": "../../scripts/build.sh",
+    "pkg:publish": "../../scripts/publish.sh",
+    "prepublishOnly": "npm run pkg:build && npm run pkg:publish"
+  },
+  "files": [
+    "dist/"
+  ],
+  "block-software": {
+    "entrypoints": {
+      "main": {
+        "binary": {
+          "artifact": {
+            "registry": "platforma-open",
+            "type": "binary",
+            "roots": {
+              "linux-x64": "./dld/jq-linux-x64",
+              "linux-aarch64": "./dld/jq-linux-aarch64",
+              "macosx-x64": "./dld/jq-macosx-x64",
+              "macosx-aarch64": "./dld/jq-macosx-aarch64",
+              "windows-x64": "./dld/jq-windows-x64"
+            }
+          },
+          "cmd": ["{pkg}/bin/jq"]
+        }
+      }
+    }
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@platforma-sdk/package-builder": "^2.15.6"
+  }
+} 
