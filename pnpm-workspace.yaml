@@ -1,5 +1,6 @@
 packages:
   - 'software/*'
+  - '!software/template'
   - 'catalogue'
 
 catalog:
