@@ -46,12 +46,6 @@ importers:
         specifier: 'catalog:'
         version: 2.16.0
 
-  software/template:
-    devDependencies:
-      '@platforma-sdk/package-builder':
-        specifier: 'catalog:'
-        version: 2.16.0
-
   software/zip:
     devDependencies:
       '@platforma-sdk/package-builder':

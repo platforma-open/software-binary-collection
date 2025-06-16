@@ -6,7 +6,10 @@
         "env": ["CI"],
         "inputs": ["$TURBO_DEFAULT$"],
         "outputs": ["./dist/**"],
-        "dependsOn": ["^build"]
+        "dependsOn": ["^build"],
+        "passThroughEnv": [
+          "PL_REGISTRY_PLATFORMA_OPEN_UPLOAD_URL"
+        ]
       },
       "upload-packages": {
         "dependsOn": ["build", "^upload-packages"]
