@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-7zip
 
+## 1.1.2
+
+### Patch Changes
+
+- f7a87ed: Dummy2
+
 ## 1.1.1
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @platforma-open/milaboratories.software-binary-collection
 
+## 1.0.3
+
+### Patch Changes
+
+- f7a87ed: Dummy2
+- Updated dependencies [f7a87ed]
+  - @platforma-open/milaboratories.software-binary-collection.software-7zip@1.1.2
+  - @platforma-open/milaboratories.software-binary-collection.software-jq@1.0.2
+
 ## 1.0.2
 
 ### Patch Changes
