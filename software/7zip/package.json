@@ -26,7 +26,7 @@
               "windows-x64": "./windows-x64"
             }
           },
-          "cmd": ["{pkg}/bin/7z"]
+          "cmd": ["{pkg}/bin/7zz"]
         }
       }
     }

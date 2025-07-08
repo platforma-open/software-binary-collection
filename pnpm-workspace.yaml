@@ -1,9 +1,9 @@
 packages:
-  - 'software/*'
-  - '!software/template'
-  - 'catalogue'
+  - software/7zip
+  - software/jq
+  - catalogue
 
 catalog:
   'turbo': ^2.5.4
-  '@changesets/cli': ^2.29.4
-  '@platforma-sdk/package-builder': ^2.16.0
+  '@changesets/cli': ^2.29.5
+  '@platforma-sdk/package-builder': ^2.16.2
