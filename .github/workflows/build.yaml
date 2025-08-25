@@ -36,6 +36,7 @@ jobs:
       create-tag: 'true'
       gha-runner-label: 'ubuntu-latest'
       pre-calculated: false
+      docker-quay-push: true
 
       npmrc-config: |
         {
