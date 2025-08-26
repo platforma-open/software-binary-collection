@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.software-binary-collection.software-jq",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "jq JSON processor package for Platforma Backend",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",

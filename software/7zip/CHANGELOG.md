@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-7zip
 
+## 1.2.0
+
+### Minor Changes
+
+- 0711078: docker container
+
 ## 1.1.2
 
 ### Patch Changes

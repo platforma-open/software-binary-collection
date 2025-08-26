@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-jq
 
+## 1.1.0
+
+### Minor Changes
+
+- 0711078: docker container
+
 ## 1.0.2
 
 ### Patch Changes
