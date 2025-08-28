@@ -6,4 +6,5 @@ packages:
 catalog:
   'turbo': ^2.5.4
   '@changesets/cli': ^2.29.5
-  '@platforma-sdk/package-builder': ^3.0.2
+  '@platforma-sdk/package-builder': ^3.2.0
+  '@platforma-sdk/blocks-deps-updater': '^2.0.0'
