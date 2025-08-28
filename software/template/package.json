@@ -5,8 +5,7 @@
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
     "build": "pl-pkg build --all-platforms",
-    "publish": "pl-pkg publish --all-platforms",
-    "postbuild": "[ -z \"${CI}\" ] || pnpm run publish"
+    "prepublishOnly": "pl-pkg prepublish"
   },
   "files": [
     "dist/"
