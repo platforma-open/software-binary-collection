@@ -13,8 +13,8 @@ catalogs:
       specifier: ^2.0.0
       version: 2.0.0
     '@platforma-sdk/package-builder':
-      specifier: ^3.2.0
-      version: 3.2.0
+      specifier: ^3.5.2
+      version: 3.5.2
     turbo:
       specifier: ^2.5.4
       version: 2.5.4
@@ -44,19 +44,19 @@ importers:
     devDependencies:
       '@platforma-sdk/package-builder':
         specifier: 'catalog:'
-        version: 3.2.0
+        version: 3.5.2
 
   software/7zip:
     devDependencies:
       '@platforma-sdk/package-builder':
         specifier: 'catalog:'
-        version: 3.2.0
+        version: 3.5.2
 
   software/jq:
     devDependencies:
       '@platforma-sdk/package-builder':
         specifier: 'catalog:'
-        version: 3.2.0
+        version: 3.5.2
 
 packages:
 
@@ -324,8 +324,8 @@ packages:
     resolution: {integrity: sha512-cef5ysA011ub5bofbWQJ3EM9rZ7A4ixGMKhFIsF2VNwYrCu5XRHsayA6vDeFOBjX4Jnq9D0QztW0JUxXD73bpw==}
     hasBin: true
 
-  '@platforma-sdk/package-builder@3.2.0':
-    resolution: {integrity: sha512-I6ZMDpUd84NWt+c//ia3YIJYQncUUDTP5R1M5QkEacFry9ida2esP/3oz3knODsnQnmKHdTfcODU/LQ+jBvcUw==}
+  '@platforma-sdk/package-builder@3.5.2':
+    resolution: {integrity: sha512-3TIUiSgn1tVq7sGxCRRkn3Hwf9oDXBv6Lx0DY/fSz7QgCLxaAhbyHH8E36J50jZFCfrF+v+LA+YuVZnQSmNesA==}
     hasBin: true
 
   '@smithy/abort-controller@4.0.5':
@@ -2046,7 +2046,7 @@ snapshots:
     dependencies:
       yaml: 2.8.0
 
-  '@platforma-sdk/package-builder@3.2.0':
+  '@platforma-sdk/package-builder@3.5.2':
     dependencies:
       '@aws-sdk/client-s3': 3.859.0
       '@aws-sdk/lib-storage': 3.859.0(@aws-sdk/client-s3@3.859.0)
