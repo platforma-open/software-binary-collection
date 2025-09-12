@@ -19,7 +19,9 @@
             "dockerfile": "Dockerfile",
             "context": "./linux-x64/"
           },
-          "cmd": []
+          "cmd": [
+            "{pkg}/bin/7zz"
+          ]
         },
         "binary": {
           "artifact": {
