@@ -2,8 +2,8 @@
   "name": "software-binary-collection",
   "scripts": {
     "cleanup": "pnpm -r cleanup",
-    "build": "turbo run build",
-    "test": "turbo run test",
+    "build": "turbo run build --force",
+    "test": "turbo run test --force",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "update-sdk": "pl-blocks-deps-updater"
