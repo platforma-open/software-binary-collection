@@ -12,14 +12,16 @@
           "AWS_DEFAULT_REGION",
           "AWS_ACCESS_KEY_ID",
           "AWS_SECRET_ACCESS_KEY",
-          "AWS_SESSION_TOKEN"
+          "AWS_SESSION_TOKEN",
+          "PL_DOCKER_REGISTRY_PUSH_TO"
         ]
       },
       "upload-packages": {
         "dependsOn": ["build", "^upload-packages"]
       },
       "test": {
-        "dependsOn": ["build"]
+        "dependsOn": ["build"],
+        "passThroughEnv": ["PL_ADDRESS", "PL_TEST_PASSWORD", "PL_TEST_USER", "PL_TEST_PROXY", "DEBUG", "PL_DOCKER_REGISTRY_PUSH_TO"]
       }
     }
   }
