@@ -1,5 +1,14 @@
 # @platforma-open/milaboratories.software-binary-collection
 
+## 1.0.8
+
+### Patch Changes
+
+- ec09a5c: technical release
+- Updated dependencies [ec09a5c]
+  - @platforma-open/milaboratories.software-binary-collection.software-7zip@1.2.4
+  - @platforma-open/milaboratories.software-binary-collection.software-jq@1.1.4
+
 ## 1.0.7
 
 ### Patch Changes

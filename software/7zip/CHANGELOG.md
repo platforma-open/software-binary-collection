@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-7zip
 
+## 1.2.4
+
+### Patch Changes
+
+- ec09a5c: technical release
+
 ## 1.2.3
 
 ### Patch Changes

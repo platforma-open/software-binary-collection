@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-jq
 
+## 1.1.4
+
+### Patch Changes
+
+- ec09a5c: technical release
+
 ## 1.1.3
 
 ### Patch Changes
