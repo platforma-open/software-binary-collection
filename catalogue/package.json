@@ -1,6 +1,6 @@
 {
     "name": "@platforma-open/milaboratories.software-binary-collection",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Software binary collection catalogue for Platforma Backend",
     "scripts": {
         "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",

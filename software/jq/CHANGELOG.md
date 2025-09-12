@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-jq
 
+## 1.1.3
+
+### Patch Changes
+
+- 4d5fc70: update deps
+
 ## 1.1.2
 
 ### Patch Changes

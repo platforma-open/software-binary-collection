@@ -1,5 +1,14 @@
 # @platforma-open/milaboratories.software-binary-collection
 
+## 1.0.7
+
+### Patch Changes
+
+- 4d5fc70: update deps
+- Updated dependencies [4d5fc70]
+  - @platforma-open/milaboratories.software-binary-collection.software-7zip@1.2.3
+  - @platforma-open/milaboratories.software-binary-collection.software-jq@1.1.3
+
 ## 1.0.6
 
 ### Patch Changes
