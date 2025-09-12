@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-jq
 
+## 1.1.1
+
+### Patch Changes
+
+- 3940f10: fix empty cmd
+
 ## 1.1.0
 
 ### Minor Changes

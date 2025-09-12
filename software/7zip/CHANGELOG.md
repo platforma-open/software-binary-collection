@@ -1,5 +1,13 @@
 # @platforma-open/milaboratories.software-binary-collection.software-7zip
 
+## 1.2.1
+
+### Patch Changes
+
+- 2c753fa: empty cmd for docker distibution
+- 3940f10: fix empty cmd
+- 20d90db: fix build for docker distibition
+
 ## 1.2.0
 
 ### Minor Changes
