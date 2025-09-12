@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-jq
 
+## 1.1.2
+
+### Patch Changes
+
+- c8e8e34: downgrade turbo
+
 ## 1.1.1
 
 ### Patch Changes
