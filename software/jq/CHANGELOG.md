@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-jq
 
+## 1.1.6
+
+### Patch Changes
+
+- 410c465: Technical release
+
 ## 1.1.5
 
 ### Patch Changes

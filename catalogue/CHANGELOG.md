@@ -1,5 +1,14 @@
 # @platforma-open/milaboratories.software-binary-collection
 
+## 1.0.10
+
+### Patch Changes
+
+- 410c465: Technical release
+- Updated dependencies [410c465]
+  - @platforma-open/milaboratories.software-binary-collection.software-7zip@1.2.2
+  - @platforma-open/milaboratories.software-binary-collection.software-jq@1.1.6
+
 ## 1.0.9
 
 ### Patch Changes
