@@ -1,5 +1,13 @@
 # @platforma-open/milaboratories.software-binary-collection
 
+## 1.0.9
+
+### Patch Changes
+
+- Updated dependencies [c11e61a]
+  - @platforma-open/milaboratories.software-binary-collection.software-7zip@1.2.1
+  - @platforma-open/milaboratories.software-binary-collection.software-jq@1.1.5
+
 ## 1.0.8
 
 ### Patch Changes

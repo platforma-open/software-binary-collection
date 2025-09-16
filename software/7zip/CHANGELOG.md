@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-7zip
 
+## 1.2.1
+
+### Patch Changes
+
+- c11e61a: fix: software descriptor for docker is mailformed
+
 ## 1.2.4
 
 ### Patch Changes

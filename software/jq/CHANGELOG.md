@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-jq
 
+## 1.1.5
+
+### Patch Changes
+
+- c11e61a: fix: software descriptor for docker is mailformed
+
 ## 1.1.4
 
 ### Patch Changes
