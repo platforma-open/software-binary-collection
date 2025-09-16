@@ -1,6 +1,6 @@
 {
   "name": "@platforma-open/milaboratories.software-binary-collection.software-7zip",
-  "version": "1.2.4",
+  "version": "1.2.0",
   "description": "7-Zip binary package for Platforma Backend",
   "scripts": {
     "cleanup": "rm -rf ./pkg-*.tgz && rm -rf ./dist/",
@@ -20,7 +20,7 @@
             "context": "./linux-x64/"
           },
           "cmd": [
-            "{pkg}/bin/7zz"
+            "/app/bin/7zz"
           ]
         },
         "binary": {

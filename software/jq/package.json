@@ -20,7 +20,7 @@
             "context": "./linux-x64/"
           },
           "cmd": [
-            "{pkg}/bin/jq"
+            "/app/bin/jq"
           ]
         },
         "binary": {
