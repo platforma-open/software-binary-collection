@@ -1,5 +1,12 @@
 # @platforma-open/milaboratories.software-binary-collection.software-7zip
 
+## 1.2.3
+
+### Patch Changes
+
+- 2b21365: technical release
+- 2b21365: technical release
+
 ## 1.2.2
 
 ### Patch Changes
