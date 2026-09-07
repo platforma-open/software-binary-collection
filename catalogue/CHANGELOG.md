@@ -1,5 +1,17 @@
 # @platforma-open/milaboratories.software-binary-collection
 
+## 1.0.12
+
+### Patch Changes
+
+- 57fa1ce: Update @platforma-sdk/package-builder to 3.15.0. Technical release.
+- Updated dependencies [57fa1ce]
+- Updated dependencies [8d64d12]
+  - @platforma-open/milaboratories.software-binary-collection.software-7zip@1.2.4
+  - @platforma-open/milaboratories.software-binary-collection.software-jq@1.1.8
+  - @platforma-open/milaboratories.software-binary-collection.software-seqkit@1.1.0
+  - @platforma-open/milaboratories.software-binary-collection.software-csvtk@1.1.0
+
 ## 1.0.11
 
 ### Patch Changes

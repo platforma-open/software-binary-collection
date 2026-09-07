@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-jq
 
+## 1.1.8
+
+### Patch Changes
+
+- 57fa1ce: Update @platforma-sdk/package-builder to 3.15.0. Technical release.
+
 ## 1.1.7
 
 ### Patch Changes

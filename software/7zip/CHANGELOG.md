@@ -1,5 +1,11 @@
 # @platforma-open/milaboratories.software-binary-collection.software-7zip
 
+## 1.2.4
+
+### Patch Changes
+
+- 57fa1ce: Update @platforma-sdk/package-builder to 3.15.0. Technical release.
+
 ## 1.2.3
 
 ### Patch Changes
