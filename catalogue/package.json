@@ -13,6 +13,12 @@
             },
             "7zip": {
                 "reference": "@platforma-open/milaboratories.software-binary-collection.software-7zip/dist/tengo/software/main.sw.json"
+            },
+            "seqkit": {
+                "reference": "@platforma-open/milaboratories.software-binary-collection.software-seqkit/dist/tengo/software/main.sw.json"
+            },
+            "csvtk": {
+                "reference": "@platforma-open/milaboratories.software-binary-collection.software-csvtk/dist/tengo/software/main.sw.json"
             }
         }
     },
@@ -22,7 +28,9 @@
     "license": "UNLICENSED",
     "dependencies": {
         "@platforma-open/milaboratories.software-binary-collection.software-jq": "workspace:*",
-        "@platforma-open/milaboratories.software-binary-collection.software-7zip": "workspace:*"
+        "@platforma-open/milaboratories.software-binary-collection.software-7zip": "workspace:*",
+        "@platforma-open/milaboratories.software-binary-collection.software-seqkit": "workspace:*",
+        "@platforma-open/milaboratories.software-binary-collection.software-csvtk": "workspace:*"
     },
     "devDependencies": {
         "@platforma-sdk/package-builder": "catalog:"
