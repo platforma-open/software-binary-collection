@@ -1,6 +1,8 @@
 packages:
   - software/7zip
   - software/jq
+  - software/seqkit
+  - software/csvtk
   - catalogue
 
 catalog:
